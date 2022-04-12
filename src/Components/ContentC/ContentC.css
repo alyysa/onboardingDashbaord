@@ -1,0 +1,17 @@
+.labeltext{
+    color: var(--bs-gray-600) ;
+}
+
+@media only screen and (max-width: 475px) {
+    .head3{
+        font-size: calc(1.3rem + .9vw) !important;
+    }
+
+    .head4{
+        font-size: 16px;
+    }
+  }
+
+  .head4{
+      color: var(--bs-gray-600);
+  }

@@ -1,0 +1,45 @@
+@media only screen and (max-width: 475px) {
+    .head1{
+        font-size: calc(1rem + .9vw) !important;
+    }
+
+    .head2{
+        font-size: 13px;
+    }
+  }
+    
+
+.button1{
+    background-color: var(--purple);
+    border: none;
+    height: 3rem;
+}
+
+.button1:hover{
+    background-color: var(--purple);
+
+}
+
+
+.box1{
+    box-sizing: border-box;
+}
+
+.head2{
+    color: var(--bs-gray-600);
+}
+
+.purpleclass{
+    border: 1px solid var(--purple);
+    cursor: pointer;
+}
+
+.purpleclass>svg{
+    color: var(--purple) !important;
+}
+
+.nonpurpleclass{
+    border: 1px solid var(--bs-gray-500);
+    cursor: pointer;
+
+}
